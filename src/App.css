@@ -1,33 +1,28 @@
-.App {
-  text-align: center;
+.flex {
+  display: flex;  
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.box {
+  width: 40vw;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+form {
+  width: 300px;
 }
 
-.App-link {
-  color: #61dafb;
+.dayFood {
+  margin-left: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.is-small {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#h1 {
+  font-size: 4em;
+}
+
+.search {
+  margin-bottom: 20px;
 }
