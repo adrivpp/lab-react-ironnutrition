@@ -40,7 +40,8 @@ class App extends Component {
     })    
     const deletedFood = this.state.data.filter((food) => {
       return food.name === name
-    })     
+    }) 
+    deletedFood[0].quantity = 0;
     this.setState({
       selectedFoods: filtered,
       totalCalories: this.state.totalCalories - (deletedFood[0].quantity * deletedFood[0].calories)      
